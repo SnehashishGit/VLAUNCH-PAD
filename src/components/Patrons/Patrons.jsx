@@ -33,7 +33,7 @@ const Patrons = () => {
             <img
               src={Cochief_1}
               alt="Co-Chief Patron 1"
-              className="w-60 h-60 rounded-full border-2 border-gray-500"
+              className="w-60 h-60 rounded-full border-2 border-gray-500 ml-20"
             />
             <p className="mt-2 font-semibold text-[20px]">Shri. Sankar Viswanathan</p>
             <p className="font-medium text-[12px] text-center">Vice President, VIT</p>
@@ -43,7 +43,7 @@ const Patrons = () => {
             <img
               src={Cochief_2}
               alt="Co-Chief Patron 2"
-              className="w-60 h-60 rounded-full border-2 border-gray-500"
+              className="w-60 h-60 rounded-full border-2 border-gray-500 ml-20"
             />
             <p className="mt-2 font-semibold text-[20px]">Dr. Sekar Viswanathan</p>
             <p className="font-medium text-[12px] text-center">Vice President, VIT</p>
@@ -53,7 +53,7 @@ const Patrons = () => {
             <img
               src={Cochief_3}
               alt="Co-Chief Patron 3"
-              className="w-60 h-60 rounded-full border-2 border-gray-500"
+              className="w-60 h-60 rounded-full border-2 border-gray-500 ml-10"
             />
             <p className="mt-2 font-semibold text-[20px]">Shri. G.V. Selvam</p>
             <p className="font-medium text-[12px] text-center">Vice President, VIT</p>
@@ -70,7 +70,7 @@ const Patrons = () => {
             <img
               src={Patrons_1}
               alt="Patron 1"
-              className="w-60 h-60 rounded-full border-2 border-gray-500"
+              className="w-60 h-60 rounded-full border-2 border-gray-500 ml-10"
             />
             <p className="mt-2 font-semibold text-[20px]">Dr. S.V. Kota Reddy</p>
             <p className="font-medium text-[12px] text-center">Vice-Chancellor</p>
@@ -80,7 +80,7 @@ const Patrons = () => {
             <img
               src={Patrons_2}
               alt="Patron 2"
-              className="w-60 h-60 rounded-full border-2 border-gray-500 ml-20 "
+              className="w-60 h-60 rounded-full border-2 border-gray-500 ml-40 "
             />
             <p className="mt-2 font-semibold text-[20px]">Dr. Jagadish Chandra Mudiganti</p>
             <p className="font-medium text-[12px] text-center">Registrar</p>
