@@ -1,5 +1,6 @@
 import React from 'react';
 import './cta.css';
+import { Link } from 'react-router-dom';
 
 const CTA = () => (
   <><div className="gpt3__cta">
@@ -15,17 +16,21 @@ const CTA = () => (
   <div className="gpt3__cta">
     <div className="gpt3__cta-content">
       <p>Submission End Date</p>
-      <h3>Mar 3, 2024, 11:59 PM IST (Indian Standard Time)</h3>
+      <h3>Mar 3, 2024, 11:59 PM IST </h3>
     </div>
     <div className="gpt3__cta-btn">
-      <button type="button">Submission Link</button>
+    <Link to='https://docs.google.com/forms/d/e/1FAIpQLScYXvjsch7XV5IeEq3Vz8s32WZTzbUOgJzJnYJZzpO_NvszGQ/viewform'>
+    <button type="button" >Submission Link</button>
+    </Link>
+    
+      
     </div>
   </div>
 
   <div className="gpt3__cta">
     <div className="gpt3__cta-content">
-      <p>Submission Template</p>
-      <h3>Mar 3, 2024, 11:59 PM IST (Indian Standard Time)</h3>
+      <p>Template</p>
+      <h3>Submission Template</h3>
     </div>
     <div className="gpt3__cta-btn">
       <button type="button">Click Here to Download</button>

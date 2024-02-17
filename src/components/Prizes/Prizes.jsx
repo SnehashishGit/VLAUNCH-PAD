@@ -4,7 +4,10 @@ function Prizes() {
   
     return (
       <>
-        <section id="featured" className="page-padding py-[12.5rem] bg-gradient-to-r from-purple-500 to-pink-500 bg-white">
+        <section className="prizes">
+
+        
+        <section id="featured" className="page-padding py-[12.5rem] bg-slate-100">
           <div className="container">
             {/* title */}
             <div className="flex flex-col text-center items-center relative ">
@@ -35,13 +38,14 @@ function Prizes() {
               <h2 className="text-[2.6rem] text-black font-bold my-10 underline">
               Unlock Your Potential: Incubation and Internship Opportunities
               </h2>
-              <p className="font-semibold text-black text-[15px] relative uppercase z-10  p-10">
+              <p className="font-semibold text-red-600 text-[15px] relative uppercase z-10  p-10">
               Incubation Opportunities: Dive into a world of innovation with access to mentoring and funding from angel investors, venture capitalists, and industry leaders through the VIT-AP Technology Business Incubation Foundation (VTBIF).
              Internship Opportunities: Gain real-world experience and guidance through internships and mentoring provided by VTBIF, alongside opportunities to work with entrepreneurs, startups, and industry giants.
               </p>
             </div>
   
           </div>
+        </section>
         </section>
         {/* featured cta */}
   

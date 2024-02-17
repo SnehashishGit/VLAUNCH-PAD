@@ -3,10 +3,17 @@
         position: fixed;
         width: 100%;
         display: flex;
-        background-color: rgb(242, 242, 242);
+        background-color: transparent;
+        transition: background-color 0.5 ease-out;
         justify-content: space-around;
         align-items: center;
         z-index: 99;
+    }
+
+    
+
+    .outer_div.scrolled{
+        background-color: white;
     }
     .outer_div p{
         font-size: 30px;

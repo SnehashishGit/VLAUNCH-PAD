@@ -1,6 +1,4 @@
-*{
-    /* overflow-x  : auto; */
-}
+
 .gpt3__cta {
     display: flex;
     justify-content: space-between;
@@ -10,7 +8,7 @@
     padding: 2rem;
     margin: 4rem;
     border-radius: 1rem;
-    background: black
+    
 }
 
 .gpt3__cta-content {

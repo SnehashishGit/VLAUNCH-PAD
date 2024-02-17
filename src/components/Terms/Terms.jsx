@@ -1,4 +1,5 @@
 import './Terms.css';
+import { Link } from 'react-router-dom';
 
 function Terms() {
   
@@ -11,7 +12,7 @@ function Terms() {
             {/* title */}
             <div className="flex flex-col text-center items-center relative ">
               <p className="font-semibold text-black text-[30px] relative uppercase z-10 underline p-2">
-                Submission Policies
+                Submission Guidelines
               </p>
 
             
@@ -52,11 +53,13 @@ function Terms() {
            {/* featured cta */}
         <div className="gpt3__cta">
     <div className="gpt3__cta-content">
-      <p>Terms & Coditions</p>
-      <h3> It covers the legal aspects </h3>
+      <p> It covers the legal aspects</p>
+      <h3> Terms & Conditions </h3>
     </div>
     <div className="gpt3__cta-btn">
+    <Link to="/terms">
       <button type="button">Click Here </button>
+      </Link>
     </div>
   </div>
     

@@ -5,16 +5,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 
 import Nav from "./components/nav"
-import Features from "./container/features/Features";
-import Info from "./components/Info/Info";
-import CTA from "./components/cta/CTA";
-import Brand from "./components/brand/Brand";
-
-import Footer from "./components/Footer/Footer";
-import Prizes from "./components/Prizes/Prizes";
-import Contact from "./components/Contact/Contacts";
-import Terms from "./components/Terms/Terms"
-
+import Terms from "./Pages/Terms";
+import Contact from "./Pages/Contact";
 
 function App(){
   return (
@@ -30,18 +22,12 @@ function App(){
          <Route path="/" element={<Home/>}/>
        <Route path="about" element={<About />} />
     
-         {/*<Route path="contact" element={<Contact />} />
-         */}
+       <Route path="terms" element={<Terms/>} />
+         <Route path="contact" element={<Contact />} />
+        
 
       </Routes>
-      <Features />
-      <Info />
-      <Prizes/>
-      <CTA/>
-      <Contact/>
-      <Terms/>
-        <Brand/>
-        <Footer/>
+
       </>
    
   )

@@ -136,3 +136,11 @@
   
  
 
+.prizes-section{
+  background-image: url('../src/images/logo/background.jpg');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}

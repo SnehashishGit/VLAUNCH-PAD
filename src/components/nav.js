@@ -4,16 +4,39 @@ import "../styles/Navbarstyle.css"
 import { FaBars } from "react-icons/fa";
 import { useState } from 'react';
 import logo from "../images/gallery/VTBIF logo.png"
-
+import { useEffect } from 'react';
 
 export default function Nav()
     { 
         const [isopen, setIsOpen] = useState(false)
+
+
+        const [scrolled, setScrolled] = useState(false);
+
+        useEffect(() => {
+          const handleScroll = () => {
+            const isScrolled = window.scrollY > 0;
+            setScrolled(isScrolled);
+          };
+      
+          window.addEventListener('scroll', handleScroll);
+      
+          return () => {
+            window.removeEventListener('scroll', handleScroll);
+          };
+        }, []);
+
+
+
+
+
         
 
   return (
+    <>
+    <nav className={scrolled ? 'outer_div scrolled' : 'outer_div'}>
     
-    <div className='outer_div'>
+    
     
     <a href="/">
          {/* <p>VLaunch - <span className='fm'>Pad
@@ -32,36 +55,48 @@ export default function Nav()
                 <Link to={"/about" } onClick={()=>{
             setIsOpen (!isopen)
          } }>About Us</Link>
-            </li><li>
-                <Link    to={"/pricing"}onClick={()=>{
+            </li>
+            <li>
+               
+               
+               
+                {/* <Link    to={""}onClick={()=>{
             setIsOpen (!isopen)
-         } }>Events</Link>
-            </li><li>
-                <Link   to={"/pricing"}onClick={()=>{
+         } }>Events</Link> */}
+            </li>
+            <li>
+                <Link   to={"/"}onClick={()=>{
             setIsOpen (!isopen)
          } }>Tracks</Link>
             </li><li>
-                <Link   to={"/gallery/page-1"}onClick={()=>{
+                <Link   to={"/"}onClick={()=>{
             setIsOpen (!isopen)
          } }>Template</Link>
             </li><li>
-                <Link    to={"/pricing"}onClick={()=>{
+                <Link    to={"/terms"}onClick={()=>{
             setIsOpen (!isopen)
-         } }>Advisory Committee</Link>
+         } }>Terms & Conditions</Link>
             </li><li>
-                <Link   to={"/contact"}onClick={()=>{
+                <Link   to={"/Contact"}onClick={()=>{
             setIsOpen (!isopen)
          } }>Contact</Link>
-            </li>
-        </ul></div>
+            </li><div className="gpt3__cta-btn">
+      <button type="button">Brochure</button>
+    </div>
+        </ul>
+        
+        
+        
+        
+        </div>
         {/* <Link to={"/pricing"}><button className='btn'>Products</button></Link> */}
         
          <FaBars className='icon' onClick={()=>{
             setIsOpen (!isopen)
          } }/>
-             <div className="gpt3__cta-btn">
-      <button type="button">Brochure</button>
-    </div>
-    </div>
+             
+    
+    </nav>
+    </>
   )
 }

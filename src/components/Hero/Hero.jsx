@@ -22,7 +22,7 @@ function Hero() {
               <span className="font-thin"></span>
             </h1>
 
-            <p className="font-light text-[20px]  ml-14 uppercase mb-[0.5rem] min450:text-[40px]">
+            <p className="font-semibold text-[20px]  ml-14 uppercase mb-[0.5rem] min450:text-[40px] underline">
               3RD ANNUAL BUSINESS PLAN COMPITETION
             </p>
 
