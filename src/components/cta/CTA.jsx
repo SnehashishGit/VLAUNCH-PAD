@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './cta.css';
 import { Link } from 'react-router-dom';
@@ -9,7 +10,10 @@ const CTA = () => (
       <h3>Download Brochure.</h3>
     </div>
     <div className="gpt3__cta-btn">
+    <a href='BROCHURE.pdf' download="VLAUCHPAD BROCHURE">
       <button type="button">For Brochure Click Here</button>
+    </a>
+      
     </div>
   </div>
 
@@ -33,7 +37,10 @@ const CTA = () => (
       <h3>Submission Template</h3>
     </div>
     <div className="gpt3__cta-btn">
-      <button type="button">Click Here to Download</button>
+    <a href='Submission_Template.doc' download="Business Plan Submission Template">
+         <button type="button">Click Here to Download</button>
+    </a>
+   
     </div>
   </div>
 

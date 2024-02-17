@@ -80,8 +80,13 @@ export default function Nav()
                 <Link   to={"/Contact"}onClick={()=>{
             setIsOpen (!isopen)
          } }>Contact</Link>
-            </li><div className="gpt3__cta-btn">
-      <button type="button">Brochure</button>
+            </li>
+            
+            <div className="gpt3__cta-btn">
+            <a href='Submission_Template.doc' download="Business Plan Submission Template">
+              <button type="button">Brochure</button>
+            </a>
+      
     </div>
         </ul>
         

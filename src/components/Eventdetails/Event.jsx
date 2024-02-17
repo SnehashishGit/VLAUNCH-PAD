@@ -31,8 +31,8 @@ function Event() {
               <div className="w-full bg-white h-[43rem] flex flex-col justify-center items-center text-center px-[100px] min800:px-[10px]">
                 
                 <h2 className="text-[36px] font-bold mt-3">About VIT-AP University </h2>
-                <p className="text-[16px] font-medium text-[#646464] mt-5 p-5">
-                Initiating its journey in 2017 in Amaravati, Andhra Pradesh, VIT-AP University has quickly established itself as a burgeoning center of higher education in India. Spanning 100 acres, the University encompasses seven schools that offer 24 Undergraduate, Postgraduate, and Ph.D. programmes in Engineering, Sciences, Arts, Languages, Business, and Law.
+                <p className="text-[16px] font-medium text-[#646464] mt-5 p-5 ">
+                Initiating its journey in 2017 in Amaravati, Andhra Pradesh, VIT-AP University has quickly established itself as a burgeoning center of higher education in India. Spanning 100 acres, the University encompasses seven schools that offer 24 Undergraduate, Postgraduate, and Ph.D. programmes in Engineering, Sciences, Arts and...
 
 
                 </p>
