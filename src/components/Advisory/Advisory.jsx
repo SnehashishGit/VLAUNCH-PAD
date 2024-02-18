@@ -1,7 +1,4 @@
 
-
-
-
 function Advisory() {
   
     return (
@@ -15,49 +12,49 @@ function Advisory() {
               </p>
 
 
-              <p className="font-semibold text-red-700 text-[30px] relative uppercase z-10  underline p-10">
+              <p className="font-semibold text-rose-900 text-[30px] relative uppercase z-10  underline p-10">
               Dr. Ameet Chavan
               </p>
-              <h2 className="text-[1.6rem] text-black font-bold my-10">
+              <h2 className="text-[1.6rem] text-blue-700 font-bold my-10">
               Director of IIEC (Innovation and Entrepreneurship Development Cell)
                 Senior Advisor, VLaunchPad 2024
                 </h2>
 
-                <p className="font-semibold text-red-700 text-[30px] relative uppercase z-10  underline p-10">
+                <p className="font-semibold text-rose-900 text-[30px] relative uppercase z-10  underline p-10">
                 Dr. Arunkumar Sivakumar
               </p>
-              <h2 className="text-[1.6rem] text-black font-bold my-10">
+              <h2 className="text-[1.6rem] text-blue-700 font-bold my-10">
               Dean (I/C), VIT-AP School of Business
                 Strategic Advisor, VLaunchPad 2024
 
                 </h2>
 
-                <p className="font-semibold text-red-700 text-[30px] relative uppercase z-10  underline p-10">
+                <p className="font-semibold text-rose-900 text-[30px] relative uppercase z-10  underline p-10">
                 Dr. Raghavendra
               </p>
-              <h2 className="text-[1.6rem] text-black font-bold my-10">
+              <h2 className="text-[1.6rem] text-blue-700 font-bold my-10">
               Associate Dean of VSB (VIT-AP School of Business)
                 Program Advisor, VLaunchPad 2024
 
                 </h2>
 
 
-              <p className="font-semibold text-red-700 text-[30px] relative uppercase z-10  underline p-10">
+              <p className="font-semibold text-black text-[30px] relative uppercase z-10  underline p-10">
               Convenor
               </p>
-              <p className="font-semibold text-red-500 text-[20px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10  p-5">
               • Dr. Usha Seshadri
               <p> 
-             <span className="text-[11px] text-black">• Associate Professor, School of Business, VIT-AP University</span>  
+             <span className="text-[11px] text-blue-700">• Associate Professor, School of Business, VIT-AP University</span>  
             </p>
    
               </p>
-              <p className="font-semibold text-red-700 text-[30px] relative uppercase z-10  underline p-5">
+              <p className="font-semibold text-black text-[30px] relative uppercase z-10  underline p-5">
                Co Convenor
               </p>
-              <p className="font-semibold text-red-500 text-[20px] relative uppercase z-10  p-10">
+              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10  p-10">
               • Dr. Sudha Ellison Mathe
-              <p className="text-[10px] p-2 text-black">
+              <p className="text-[10px] p-2 text-blue-700">
                 • Deputy Director, IIEC, VIT-AP University
               </p>
               
@@ -68,12 +65,12 @@ function Advisory() {
 
               
 
-              <p className="font-semibold text-red-700 text-[30px] relative uppercase z-10 underline p-10">
+              <p className="font-semibold text-black text-[30px] relative uppercase z-10 underline p-10">
               Competition Committee
               </p>
              
 
-              <p className="font-semibold text-red-500 text-[15px] relative uppercase z-10  p-10">
+              <p className="font-semibold text-blue-700 text-[15px] relative uppercase z-10  p-10">
         <span className = "text-black"> •Dr.Santanu Mandal</span>   - Associate Professor and Technology Transfer Officer.
 
               <p  className="p-2">

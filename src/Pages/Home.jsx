@@ -12,6 +12,7 @@ import Terms from "../components/Terms/Terms";
 import Brand from "../components/brand/Brand";
 import Footer from "../components/Footer/Footer"
 import Patrons from "../components/Patrons/Patrons";
+import Committee from "../components/Committee/Committee";
 
 
 
@@ -28,6 +29,7 @@ function Home(){
       <Contact/>
       <Patrons/>
       <Advisory/>
+      <Committee/>
       <Terms/>
         <Brand/>
         <Footer/>

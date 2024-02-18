@@ -8,7 +8,7 @@ import Patrons_2 from "../../images/patrons/Patrons_2.jpg";
 
 
 
-const Patrons = () => {
+const Patrons = () => { 
   return (
     <>
     <div className="flex flex-col items-center">
@@ -21,7 +21,7 @@ const Patrons = () => {
           className="w-60 h-60 rounded-full border-4 border-gray-500 ml-20"
         />
         <p className="mt-2 font-semibold text-[20px] ml-20">Dr. G. Viswanathan</p>
-        <p className="mt-2 font-medium text-[12px] text-center ml-20">Founder & Chancellor, VIT</p>
+        <p className="mt-2 font-medium text-[12px] text-blue-700 text-center ml-20">Founder & Chancellor, VIT</p>
       </div>
 
     {/* Co-Chief Patrons */}
@@ -36,7 +36,7 @@ const Patrons = () => {
               className="w-60 h-60 rounded-full border-2 border-gray-500 ml-20"
             />
             <p className="mt-2 font-semibold text-[20px]">Shri. Sankar Viswanathan</p>
-            <p className="font-medium text-[12px] text-center">Vice President, VIT</p>
+            <p className="font-medium text-[12px]  text-blue-700 text-center">Vice President, VIT</p>
           </div>
           {/* Co-Chief Patron 2 */}
           <div className="mx-4 mb-4 px-20">
@@ -46,7 +46,7 @@ const Patrons = () => {
               className="w-60 h-60 rounded-full border-2 border-gray-500 ml-20"
             />
             <p className="mt-2 font-semibold text-[20px]">Dr. Sekar Viswanathan</p>
-            <p className="font-medium text-[12px] text-center">Vice President, VIT</p>
+            <p className="font-medium text-[12px] text-blue-700 text-center">Vice President, VIT</p>
           </div>
           {/* Co-Chief Patron 3 */}
           <div className="mx-4 mb-4 px-20">
@@ -56,7 +56,7 @@ const Patrons = () => {
               className="w-60 h-60 rounded-full border-2 border-gray-500 ml-10"
             />
             <p className="mt-2 font-semibold text-[20px]">Shri. G.V. Selvam</p>
-            <p className="font-medium text-[12px] text-center">Vice President, VIT</p>
+            <p className="font-medium text-[12px]  text-blue-700 text-center">Vice President, VIT</p>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Patrons = () => {
               className="w-60 h-60 rounded-full border-2 border-gray-500 ml-10"
             />
             <p className="mt-2 font-semibold text-[20px]">Dr. S.V. Kota Reddy</p>
-            <p className="font-medium text-[12px] text-center">Vice-Chancellor</p>
+            <p className="font-medium text-[12px] text-blue-700 text-center">Vice-Chancellor</p>
           </div>
           {/* Patron 2 */}
           <div className="mx-4 mb-4 px-15 ">
@@ -83,7 +83,7 @@ const Patrons = () => {
               className="w-60 h-60 rounded-full border-2 border-gray-500 ml-40 "
             />
             <p className="mt-2 font-semibold text-[20px]">Dr. Jagadish Chandra Mudiganti</p>
-            <p className="font-medium text-[12px] text-center">Registrar</p>
+            <p className="font-medium text-[12px]  text-blue-700 text-center">Registrar</p>
           </div>
         </div>
       </div>

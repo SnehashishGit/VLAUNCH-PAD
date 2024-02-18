@@ -20,22 +20,22 @@ function Contact() {
               <p className="font-semibold text-red-700 text-[30px] relative uppercase z-10  underline p-10">
               Convenor
               </p>
-              <p className="font-semibold text-red-500 text-[20px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10  p-5">
               • Dr. Usha Seshadri
               <p> 
-             <span className="text-[11px]">• Email:Convenor.VLaunchPad@vitap.ac.in</span>  
+             <span className="text-[11px]  text-blue-700 ">• Email:Convenor.VLaunchPad@vitap.ac.in</span>  
             </p>
             <p>
-            <span className="text-[12px] p-1">• Mobile No.: +919652758395</span>
+            <span className="text-[12px]  text-blue-700  p-1">• Mobile No.: +919652758395</span>
             </p>
               
               </p>
               <p className="font-semibold text-red-700 text-[30px] relative uppercase z-10  underline p-5">
                Co Convenor
               </p>
-              <p className="font-semibold text-red-500 text-[20px] relative uppercase z-10  p-10">
+              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10  p-10">
               • Dr. Sudha Ellison Mathe
-              <p className="text-[10px] p-2">
+              <p className="text-[10px]   text-blue-700 p-2">
                 • Deputy Director, IIEC, VIT-AP University
               </p>
               
@@ -55,24 +55,36 @@ function Contact() {
               Have questions or need clarification? Reach out to our dedicated student coordinators who are here to assist you:
               </h2>
 
-              <p className="font-semibold text-red-500 text-[20px] relative uppercase z-10  p-10">
+              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10  p-10">
               •Ms. Apoorva
-              • Mobile No.: +918287884966
+              <p className="text-blue-700">
+                • Mobile No.: +918287884966
+              </p>
+              
 
               <p>
               •Ms. Keerthi
-              • Mobile No.: +919912511913
+              <p className="text-blue-700">
+                • Mobile No.: +919912511913
+              </p>
+              
               </p>
 
               <p>
               •Mr. Ram
-              • Mobile No.: +919515572706
+              <p className="text-blue-700">
+                • Mobile No.: +919515572706
+              </p>
+              
               </p> 
 
 
               <p>
               •	Ms. Neha
-              • Mobile No.: +919160534522
+              <p className="text-blue-700">
+                • Mobile No.: +919160534522
+              </p>
+              
               </p>
 
               

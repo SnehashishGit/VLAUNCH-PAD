@@ -20,31 +20,31 @@ function Terms() {
               <h2 className="text-[2.6rem] text-black font-bold my-10">
               This component encompasses the rules, regulations, and instructions for submitting content or engaging in certain activities within a platform, service, or organization.
               </h2>
-              <p className="font-semibold text-red-400 text-[14px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
               1. The submission template will be shared with all the students who register for this competition on our website.
               </p>
 
-              <p className="font-semibold text-red-400 text-[14px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
               2. Minimum font-size 11 points. Larger fonts may be used for specific headers or emphasis.
               </p>
 
-              <p className="font-semibold text-red-400 text-[14px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
               3. The submission should be in a PDF format. The size should not exceed 1 MB. Any other form of submission will not be accepted.
               </p>
 
-              <p className="font-semibold text-red-400 text-[14px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
             4. Any submissions other than on the submission page will not be accepted.  
               </p>
 
-              <p className="font-semibold text-red-400 text-[14px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
               5. Any submission to any individual person will not be accepted.
               </p>
 
-              <p className="font-semibold text-red-400 text-[14px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
               6. Any canvassing of any kind will lead to disqualification from this competition.
               </p>
 
-              <p className="font-semibold text-red-400 text-[14px] relative uppercase z-10  p-5">
+              <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
               7. Any dishonest means employed during the course of this competition will lead to disqualification from the competition. 
               </p>
             </div>

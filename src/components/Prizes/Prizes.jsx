@@ -23,7 +23,7 @@ function Prizes() {
                 className=""
               />
 
-              <h2 className="text-[3.6rem] text-black font-bold my-10">
+              <h2 className="text-[3.6rem] text-blue-400 font-bold my-10">
               Ignite your competitive spirit at VLaunchPad 2024 with our rewarding cash prize lineup!
               </h2>
               <p className="font-semibold text-red-600 text-[20px] relative uppercase z-10  p-10">
@@ -38,7 +38,7 @@ function Prizes() {
               <h2 className="text-[2.6rem] text-black font-bold my-10 underline">
               Unlock Your Potential: Incubation and Internship Opportunities
               </h2>
-              <p className="font-semibold text-red-600 text-[15px] relative uppercase z-10  p-10">
+              <p className="font-semibold text-blue-700 text-[15px] relative uppercase z-10  p-10">
               Incubation Opportunities: Dive into a world of innovation with access to mentoring and funding from angel investors, venture capitalists, and industry leaders through the VIT-AP Technology Business Incubation Foundation (VTBIF).
              Internship Opportunities: Gain real-world experience and guidance through internships and mentoring provided by VTBIF, alongside opportunities to work with entrepreneurs, startups, and industry giants.
               </p>
