@@ -44,7 +44,7 @@ function Event() {
             />
               </div>
               {/*  */}
-              <div className="w-full bg-white h-[30rem] ">
+              <div className=" bg-white ">
                 <img
                   src={Img3}
                   alt="about_img"

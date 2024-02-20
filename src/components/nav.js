@@ -70,10 +70,11 @@ export default function Nav()
             setIsOpen (!isopen)
          } }>Tracks</Link>
             </li><li>
-                <Link   to={"/"}onClick={()=>{
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLScYXvjsch7XV5IeEq3Vz8s32WZTzbUOgJzJnYJZzpO_NvszGQ/viewform'>Register
+                {/* <Link   to={"/"}onClick={()=>{
             setIsOpen (!isopen)
-         } }>Template</Link>
-            </li><li>
+         } }>Register</Link> */}
+            </a></li><li>
                 <Link    to={"/terms"}onClick={()=>{
             setIsOpen (!isopen)
          } }>Terms & Conditions</Link>

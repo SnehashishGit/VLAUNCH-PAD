@@ -8,7 +8,7 @@ import Cochief_3 from "../../images/committee/C4.jpg";
 import Patrons_1 from "../../images/committee/C5.jpg";
 import Patrons_2 from "../../images/committee/C6.jpg";
 import Patrons_3 from '../../images/committee/C7.jpg';
-
+import Patrons_4 from "../../images/committee/C8.jpg";
 
 
 
@@ -25,7 +25,7 @@ const Committee = () => {
             className="w-60 h-60 rounded-full border-4 border-gray-500 ml-20"
           />
           <p className="mt-2 font-semibold text-[20px] ">Dr. Balachandran A.</p>
-          <p className="mt-2 font-medium text-[12px] text-center text-blue-700  ">Director of VIT-TechnologyBusiness IncubatorDr.</p>
+          <p className="mt-2 font-medium text-[12px] text-center text-blue-700  ">Director of VIT-TechnologyBusiness Incubator</p>
         </div>
   
       {/* Co-Chief Patrons */}
@@ -86,7 +86,7 @@ Innovators Association</p>
                 alt="Patron 1"
                 className="w-60 h-60 rounded-full border-2 border-gray-500 ml-20"
               />
-              <p className="mt-2 font-semibold text-[20px]">Ravi Eswarapu
+              <p className="mt-2 font-semibold text-[20px] ">Ravi Eswarapu
 </p>
               <p className="font-medium text-[12px] text-blue-700  text-center">CEO of ā hub (Andhra University
 Incubation Council) and co-
@@ -116,6 +116,16 @@ Leader in Women's Development, AIIMS</p>
               <p className="font-medium text-[12px] text-blue-700  text-center">CEO, Symbiosis TBI
 Entrepreneurship & Innovation,
 Symbiosis University</p>
+            </div>
+            <div className="mx-4 mb-4 px-15 ">
+              <img
+                src={Patrons_4}
+                alt="Patron 2"
+                className="w-60 h-60 rounded-full border-2 border-gray-500 ml-40 "
+              />
+              <p className="mt-2 font-semibold text-[20px]">Vikas D. Pandey
+</p>
+              <p className="font-medium text-[12px] text-blue-700  text-center">Pivotal experience in IT and Business Management at Fujitsu and Atos</p>
             </div>
           </div>
         </div>
