@@ -15,7 +15,7 @@ import Patrons_3 from '../../images/committee/C7.jpg';
 const Committee = () => {
     return (
       <>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center text-center">
         {/* Chief Patron */}
         <div className="mt-8 p-10">
           <p className="font-bold text-[30px] underline p-10">Advisory Committee</p>
@@ -24,8 +24,8 @@ const Committee = () => {
             alt="Chief Patron"
             className="w-60 h-60 rounded-full border-4 border-gray-500 ml-20"
           />
-          <p className="mt-2 font-semibold text-[20px] ml-20">Dr. Balachandran A.</p>
-          <p className="mt-2 font-medium text-[12px] text-left  text-blue-700  ml-20">Director of VIT-TechnologyBusiness IncubatorDr.</p>
+          <p className="mt-2 font-semibold text-[20px] ">Dr. Balachandran A.</p>
+          <p className="mt-2 font-medium text-[12px] text-center text-blue-700  ">Director of VIT-TechnologyBusiness IncubatorDr.</p>
         </div>
   
       {/* Co-Chief Patrons */}
@@ -84,7 +84,7 @@ Innovators Association</p>
               <img
                 src={Patrons_1}
                 alt="Patron 1"
-                className="w-60 h-60 rounded-full border-2 border-gray-500 ml-10"
+                className="w-60 h-60 rounded-full border-2 border-gray-500 ml-20"
               />
               <p className="mt-2 font-semibold text-[20px]">Ravi Eswarapu
 </p>

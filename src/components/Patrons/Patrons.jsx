@@ -11,7 +11,7 @@ import Patrons_2 from "../../images/patrons/Patrons_2.jpg";
 const Patrons = () => { 
   return (
     <>
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center text-center">
       {/* Chief Patron */}
       <div className="mt-8 p-10">
         <p className="font-bold text-[30px] underline p-10">Chief Patron</p>
@@ -20,8 +20,8 @@ const Patrons = () => {
           alt="Chief Patron"
           className="w-60 h-60 rounded-full border-4 border-gray-500 ml-20"
         />
-        <p className="mt-2 font-semibold text-[20px] ml-20">Dr. G. Viswanathan</p>
-        <p className="mt-2 font-medium text-[12px] text-blue-700 text-center ml-20">Founder & Chancellor, VIT</p>
+        <p className="mt-2 font-semibold text-[20px]  ">Dr. G. Viswanathan</p>
+        <p className="mt-2 font-medium text-[12px] text-blue-700 text-center ">Founder & Chancellor, VIT</p>
       </div>
 
     {/* Co-Chief Patrons */}

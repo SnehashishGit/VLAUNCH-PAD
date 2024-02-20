@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../styles/Navbarstyle.css"
@@ -65,7 +66,7 @@ export default function Nav()
          } }>Events</Link> */}
             </li>
             <li>
-                <Link   to={"/"}onClick={()=>{
+                <Link   to={"/tracksub"}onClick={()=>{
             setIsOpen (!isopen)
          } }>Tracks</Link>
             </li><li>

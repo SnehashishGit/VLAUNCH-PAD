@@ -17,13 +17,13 @@ function Hero() {
           >
 
             
-            <h1 className="font-bold text-[49px] uppercase mb-[4rem] min450:text-[40px]">
+            <h1 className="font-bold text-[49px] uppercase mb-[2rem] min450:text-[30px] pt-3">
            V-Launch Pad 2024
               <span className="font-thin"></span>
             </h1>
 
-            <p className="font-semibold text-[20px]  ml-14 uppercase mb-[0.5rem] min450:text-[38px] underline">
-              3RD ANNUAL BUSINESS PLAN COMPETITION
+            <p className="font-semibold text-[20px]  ml-14  mb-[5.5rem] min450:text-[13px] underline">
+              3 <sup>rd</sup> ANNUAL BUSINESS PLAN COMPETITION
             </p>
 
             {/* <MainButton

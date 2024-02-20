@@ -16,10 +16,6 @@ function Terms() {
               </p>
 
             
-
-              <h2 className="text-[2.6rem] text-black font-bold my-10">
-              This component encompasses the rules, regulations, and instructions for submitting content or engaging in certain activities within a platform, service, or organization.
-              </h2>
               <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
               1. The submission template will be shared with all the students who register for this competition on our website.
               </p>
@@ -33,15 +29,15 @@ function Terms() {
               </p>
 
               <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
-            4. Any submissions other than on the submission page will not be accepted.  
+            4.  submissions other than on the submission page will not be accepted.  
               </p>
 
               <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
-              5. Any submission to any individual person will not be accepted.
+              5.  submission to any individual person will not be accepted.
               </p>
 
               <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">
-              6. Any canvassing of any kind will lead to disqualification from this competition.
+              6. canvassing of any kind will lead to disqualification from this competition.
               </p>
 
               <p className="font-semibold text-blue-700 text-[14px] relative uppercase z-10  p-5">

@@ -32,7 +32,7 @@
 
 .gpt3__features-heading p {
     color: var(--color-subtext);
-    font-size: 12px;
+    font-size: 16px;
     line-height: 25px;
     font-weight: 500;
     font-family: var(--font-family);
@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 550px) {
     .gpt3__features-heading h1 {
-        font-size: 28px;
+        font-size: 20px;
         line-height: 38px;
     }
 }

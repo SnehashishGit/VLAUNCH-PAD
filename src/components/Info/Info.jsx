@@ -23,31 +23,29 @@ function Info() {
               />
             </div>
 
-              <h2 className="text-[3.6rem] text-black font-bold my-10">
-              Navigating the Qualifying Rounds: Key Dates
-              </h2>
+
               <p className="font-semibold text-blue-400 text-[30px] relative uppercase z-10  p-10">
               Embark on your journey through the qualifying rounds of VLaunchPad 2024. Here are the important dates:
               </p>
-              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10 underline p-5">
-              • First Round of Selection: 4th to 10th March 2024
+              <p className="font-semibold text-rose-900 text-[20px] relative  z-10 underline p-5">
+              • First Round of Selection: 4<sup>th</sup> to 10 <sup>th</sup> March 2024
               
               </p>
               <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10 underline p-2">
 
-              • Second Short list: 11th to 15th March 2024
+              • Second Short list: 11<sup>th</sup> to 15<sup>th</sup> March 2024
 
               </p>
 
               <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10 underline p-4">
 
-              • Shortlisted Teams’ Announcement: 16th March 2024
+              • Shortlisted Teams’ Announcement: 16<sup>th</sup> March 2024
 
               </p>
 
-              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10 underline p-4">
+              <p className="font-semibold text-rose-900 text-[20px] relative  z-10 underline p-4">
 
-              • Grand Finale at VIT-AP University: Selected Teams’ Presentations on 23rd March 2024
+              • Grand Finale at VIT-AP University: Selected Teams’ Presentations on 23<sup>rd</sup> March 2024
               </p>
             </div>
   
