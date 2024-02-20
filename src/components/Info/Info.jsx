@@ -31,13 +31,13 @@ function Info() {
               • First Round of Selection: 4<sup>th</sup> to 10 <sup>th</sup> March 2024
               
               </p>
-              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10 underline p-2">
+              <p className="font-semibold text-rose-900 text-[20px] relative  z-10 underline p-2">
 
               • Second Short list: 11<sup>th</sup> to 15<sup>th</sup> March 2024
 
               </p>
 
-              <p className="font-semibold text-rose-900 text-[20px] relative uppercase z-10 underline p-4">
+              <p className="font-semibold text-rose-900 text-[20px] relative  z-10 underline p-4">
 
               • Shortlisted Teams’ Announcement: 16<sup>th</sup> March 2024
 

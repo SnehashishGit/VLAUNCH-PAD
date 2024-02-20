@@ -48,7 +48,7 @@ function Event() {
                 <img
                   src={Img3}
                   alt="about_img"
-                  className="w-full h-full object-contain bg-center "
+                  className=" h-full object-contain bg-center w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5"
                 />
               </div>
               {/*  */}
