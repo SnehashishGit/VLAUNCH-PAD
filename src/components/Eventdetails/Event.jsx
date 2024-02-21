@@ -31,7 +31,7 @@ function Event() {
               <div className="w-full bg-white h-[43rem] flex flex-col justify-center items-center text-center px-[100px] min800:px-[10px]">
                 
                 <h2 className="text-[36px] font-bold mt-3">About VIT-AP University </h2>
-                <p className="text-[16px] font-medium text-[#646464] mt-5 p-5 ">
+                <p className="text-[16px] font-medium text-[#646464] mt-5 p-10 ">
                 Initiating its journey in 2017 in Amaravati, Andhra Pradesh, VIT-AP University has quickly established itself as a burgeoning center of higher education in India. Spanning 100 acres, the University encompasses seven schools that offer 24 Undergraduate, Postgraduate, and Ph.D. programmes in Engineering, Sciences, Arts and...
 
 
@@ -44,11 +44,11 @@ function Event() {
             />
               </div>
               {/*  */}
-              <div className=" bg-white ">
+              <div className="w-full bg-white h-[40rem] ">
                 <img
                   src={Img3}
                   alt="about_img"
-                  className=" h-full object-contain bg-center w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5"
+                  className=" w-full h-full object-contain bg-center "
                 />
               </div>
               {/*  */}
